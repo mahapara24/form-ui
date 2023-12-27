@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* header csss */
+header {
+  height: 10%;
+  background-color: #0038a5;
+  color: #ffcb00;
+  position: relative;
+  text-align: center;
+}
+h1 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* form filling details css */
+form {
+  color: #0038a5;
+  width: 50%;
+  background-color: #ffcb00;
+  margin-left: 70px;
+  margin-right: 70px;
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: space-between;
+}
+h2 {
+  padding: 20px;
+  padding-left: 40px;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+h3{
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+h4{
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+label {
+  margin-left: 40px;
+  font-size: 0.9rem;
+}
+
+input {
+  border: none;
+  outline: none;
+  text-align: left;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  width: 90%;
+  border-radius: 3px; 
+}
+table tr td{
+  border-top:0.5px solid #e9bb03;
+
+  border-top:0.5px solid #e9bb03;
+}
+td{
+  padding: 9px;
+
+
+}
+
+/* shipment */
+.ship-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+}
+.shipment-method{
+  margin-right: 10px;
+  padding-right: 220px;
+}
+.shipment-method label{
+  margin-right: 20px;
+}
+.shipment{
+  padding-right: 50px;
+}
+.checkbox-ship{
+  flex-direction: column;
+}
+.checkbox-tick{
+  display:flex;
+  flex-direction: row;
+}
+
+/* submit button */
+.submit-button{
+  padding: 10px;
+  margin-left: 30px;
+  border-radius: 8px;
+  border-style: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  background-color:  #3e72db;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color  0.3s;
+}
+button:hover{
+  background-color:  #034cdf;
+}
+
+
+/* footer css */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  background-color: #ebe8e1;
+  padding-right: 90px;
+  padding-left: 90px;
+}
+.footer-details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 0px;
+  padding: 20px;
+  color: #0038a5 ;
+}
+
+.stars{
+  font-size: 12px;
+  color: #e9bb03;
+}
+
+p {
+  background-color: #ffcb00;
+  color: #0038a5;
+  font-size: 0.9rem;
+  text-align: center;
+  position: relative;
+  height: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+/* links */
+a{
+  text-decoration: none;
+  color: #0038a5;
+
+  font-size: 0.8rem;
+  font-weight: 600;
+
+}
+a:hover{
+  color: #3c6dcf;
+}
+i{
+  margin-right: 5px;
+}
+
+
+
+
+ 
